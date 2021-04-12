@@ -1,3 +1,4 @@
+//use strict; // no definition found to strict -- vscode пишет 
 //№1 в браузере
 //var a = 1, b = 1, c, d;
 // c = ++a; alert(c);           // 2
@@ -37,7 +38,7 @@ alert(result);
 // Присвоить переменной а значение в промежутке [0..15]. 
 // С помощью оператора switch организовать вывод чисел от a до 15.
 a = +prompt('введите число от 0 до 15:');
-resultFor = [];
+let resultFor = [];
 // через цикл for (понятнее и знала)
 for (let i = a; i <= 15; i+=1) {
     resultFor[resultFor.length] = i; 
@@ -45,43 +46,43 @@ for (let i = a; i <= 15; i+=1) {
 alert(resultFor);
 
 // через switch (не знала о таком вообще) 
-result = [];
+let resultSwitch = [];
 switch (a) {
     case 0:
-        result[result.length] = 0;
+        resultSwitch[resultSwitch.length] = 0;
     case 1:
-        result[result.length] = 1;
+        resultSwitch[resultSwitch.length] = 1;
     case 2:
-        result[result.length] = 2;
+        resultSwitch[resultSwitch.length] = 2;
     case 3:
-        result[result.length] = 3;
+        resultSwitch[resultSwitch.length] = 3;
     case 4:
-        result[result.length] = 4;
+        resultSwitch[resultSwitch.length] = 4;
     case 5:
-        result[result.length] = 5;
+        resultSwitch[resultSwitch.length] = 5;
     case 6:
-        result[result.length] = 6;
+        resultSwitch[resultSwitch.length] = 6;
     case 7:
-        result[result.length] = 7;
+        resultSwitch[resultSwitch.length] = 7;
     case 8:
-        result[result.length] = 8;
+        resultSwitch[resultSwitch.length] = 8;
     case 9:
-        result[result.length] = 9;
+        resultSwitch[resultSwitch.length] = 9;
     case 10:
-        result[result.length] = 10;
+        resultSwitch[resultSwitch.length] = 10;
     case 11:
-        result[result.length] = 11;
+        resultSwitch[resultSwitch.length] = 11;
     case 12:
-        result[result.length] = 12;
+        resultSwitch[resultSwitch.length] = 12;
     case 13:
-        result[result.length] = 13;
+        resultSwitch[resultSwitch.length] = 13;
     case 14:
-        result[result.length] = 14;
+        resultSwitch[resultSwitch.length] = 14;
     case 15:
-        result[result.length] = 15;
+        resultSwitch[resultSwitch.length] = 15;
         break;
 }
-alert(result);
+alert(resultSwitch);
 
 // №5
 // Реализовать основные 4 арифметические операции в виде функций с двумя параметрами. 
